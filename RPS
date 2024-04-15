@@ -1,0 +1,25 @@
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
+
+class Solution {
+
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        String o = in.nextLine();
+        
+        
+        if(o.equals("Scissors")) {
+            System.out.println("Rock");
+        } else if(o.equals("Rock")) {
+            System.out.println("Paper");
+        } else if(o.equals("Paper")) {
+            System.out.println("Scissors");
+        } else {
+            System.out.println("Error");
+        }
+            
+        
+    }
+}
